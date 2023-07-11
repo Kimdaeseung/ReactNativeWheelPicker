@@ -4,4 +4,4 @@ import TimePickerAndroid from './src/TimePicker.android'
 import TimePickerIOS from './src/TimePicker.ios'
 import DatePickerAndroid from './src/DatePicker.android'
 
-export { WheelPickerAndroid,WheelPickerIOS, TimePickerAndroid,TimePickerIOS, DatePickerAndroid, DatePickerIOS, Picker }
+export { WheelPickerAndroid,WheelPickerIOS, TimePickerAndroid,TimePickerIOS, DatePickerAndroid }
