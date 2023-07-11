@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
-import WheelPicker from './WheelPicker'
+import WheelPicker from './WheelPicker.android'
 import {
   hourTo24Format,
   hourTo12Format,
@@ -19,7 +19,7 @@ type Event = {
 
 type Props = {
   initDate: string,
-  onTimeSelected: Date => void,
+  onTimeSelected: (date: Date) => void,
   hours: Array<number>,
   minutes: Array<string>,
   format24: boolean,
