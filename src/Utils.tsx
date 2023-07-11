@@ -41,9 +41,9 @@ export const dateTo12Hour = (dateString: string) => {
     return [hour.toString(), amPm]
 }
 
-export function increaseDateByDays(date: Date, numOfDays: ?number) {
+export function increaseDateByDays(date: Date, numOfDays?:number) {
     const nextDate = new Date(date.valueOf())
-    nextDate.setDate(nextDate.getDate() + numOfDays)
+    nextDate.setDate(nextDate.getDate() + numOfDays ?? 0)
     return nextDate
 }
 
